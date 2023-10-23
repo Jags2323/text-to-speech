@@ -274,7 +274,7 @@ const App = () => {
   const synthesizeText = async (text, index) => {
     try {
       const response = await fetch(
-        `http://localhost:8080/texttospeech?text=${text}`,
+        `https://text-to-speech-java-h44vex6pvq-uc.a.run.app/texttospeech?text=${text}`,
         {
           method: "GET",
           responseType: "blob",
